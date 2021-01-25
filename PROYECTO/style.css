@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(233, 144, 10);
+    color: beige;
+    font-family: 'Oswald', sans-serif;
+    background-color: #fd7d05;
+    background-color: #ac1912;
+background-image: url("data:image/svg+xml,%3Csvg width='12' height='24' viewBox='0 0 12 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23200c76' fill-opacity='0.4'%3E%3Cpath d='M2 0h2v12H2V0zm1 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-1 4h2v12H8V12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+a{
+    color:cornsilk;
+    text-decoration: none;
+    
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* NAVEGATION */
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.navlog{
+    width: 80px;
+
+}
+.nav-main ul {
+    display: flex;
+
+}
+.nav-main ul li{
+    padding: 10px;
+}
+/* PRINCIPAL*/
+hr{
+    margin: 10px 0;
+}
+.showcase{
+    width: 100%;
+    color: whitesmoke;
+    background-color: rgb(54, 42, 20);
+    height: 750px;
+    background: url('./img//Bad\ Fondo\ pagina.jpg') no-repeat center/cover;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+h2{
+    color: white;
+    height: 350px;
+    font-size: 70px;
+
+}
+/* PROGRAMAS  */
+.columnas{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 5px;
+    margin: 10px 0;
+}
+.columnas img{
+    width: 100%;
+    height: 120px;
+    
+}
+.columnas h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.columnas a{
+    padding: 10px 0;
+    color:white;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+.columnas a:hover{
+    text-decoration: underline;
+}
